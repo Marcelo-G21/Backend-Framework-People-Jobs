@@ -49,13 +49,13 @@ You can interact with the API using tools such as [Insomnia](https://insomnia.re
 
 ## Project structure
 
-`/config`: Contains the database connection configuration.
-`/controllers`: Contains the logic to handle HTTP requests.
-`/middlewares`: Contains the data validations.
-`/models`: Contains the Mongoose schemas.
-`/routes`: Contains the API route definitions.
-`/services`: Contains the business logic and communication with the database.
-`app.js`: Main server entry point.
+- `/config`: Contains the database connection configuration.
+- `/controllers`: Contains the logic to handle HTTP requests.
+- `/middlewares`: Contains the data validations.
+- `/models`: Contains the Mongoose schemas.
+- `/routes`: Contains the API route definitions.
+- `/services`: Contains the business logic and communication with the database.
+- `app.js`: Main server entry point.
 
 ## Contributions
 Contributions are welcome. Please follow the steps below to contribute:
