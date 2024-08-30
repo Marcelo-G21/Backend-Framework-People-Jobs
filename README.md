@@ -20,8 +20,7 @@ git clone https://github.com/Marcelo-G21/Backend-Framework-People-Jobs.git
 ```
 2. Install depenencies:
 ```bash
-cd your-repo
-npm install
+yarn install
 ```
 3. Set environment variables: Create an .env file in the root of the project with the following variables:
 ```bash
