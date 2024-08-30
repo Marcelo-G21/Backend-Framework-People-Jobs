@@ -16,7 +16,7 @@ This API allows you to create, read, update and delete people and their respecti
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/tuusuario/tu-repo.git
+git clone https://github.com/Marcelo-G21/Backend-Framework-People-Jobs.git
 ```
 2. Install depenencies:
 
@@ -38,15 +38,15 @@ You can interact with the API using tools such as [Insomnia](https://insomnia.re
 
 ## API routes
 
-- `GET api/people`: List all people
-- `GET api/people/:id`: Get a specific person by ID
-- `POST api/people`: Create a new person
-- `PUT api/people/:id`: Update an existing person
-- `DELETE api/people/:id`: Delete a person
-- `GET api/people/:id/jobs`: List all jobs of a person
-- `POST api/people/:id/jobs`: Add a new job to a person
-- `PUT api/people/:id/jobs/:jobId`: Update a specific job
-- `DELETE api/people/:id/jobs/:jobId`: Delete a specific job
+- `GET /people`: List all people
+- `GET /people/:id`: Get a specific person by ID
+- `POST /people`: Create a new person
+- `PUT /people/:id`: Update an existing person
+- `DELETE /people/:id`: Delete a person
+- `GET /people/:id/jobs`: List all jobs of a person
+- `POST /people/:id/jobs`: Add a new job to a person
+- `PUT /people/:id/jobs/:jobId`: Update a specific job
+- `DELETE /people/:id/jobs/:jobId`: Delete a specific job
 
 ## Project structure
 
