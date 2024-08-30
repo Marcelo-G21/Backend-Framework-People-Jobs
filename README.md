@@ -19,19 +19,19 @@ This API allows you to create, read, update and delete people and their respecti
 git clone https://github.com/Marcelo-G21/Backend-Framework-People-Jobs.git
 ```
 2. Install depenencies:
-
+```bash
 cd your-repo
 npm install
-
+```
 3. Set environment variables: Create an .env file in the root of the project with the following variables:
-
+```bash
 DB_URI=mongodb://localhost:27017/your-database
 PORT=3000
-
+```
 4. Start server:
-
+```bash
 node app.js
-
+```
 ## Use
 
 You can interact with the API using tools such as [Insomnia](https://insomnia.rest/) or [Postman](https://www.postman.com/). Make sure that the server is running before making requests.
